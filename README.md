@@ -4,7 +4,7 @@ Package caller provides a helping hand around runtime.Caller() to look up file,
 line and name of the calling function. caller caches the results of its lookups
 and strips the uninteresting prefix from both the caller's location and name.
 
-`go get github.com/kbj/caller`
+`go get github.com/birkelund/caller`
 
 # Usage
 
